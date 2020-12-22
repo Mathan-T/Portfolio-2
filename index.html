@@ -3,59 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="images/pfolio.png">
-    <link href="styles.css" rel="sytlesheet"/>
+    <link rel="shortcut icon" type="image/png" href="images/pfolio.png"/>
+    <link href="styles.css" rel="stylesheet"/>
     <title>Yet Another Portfolio</title>
 </head>
 <body>
-    <nav>
-        <div>NeoGrammer Mathan</div>
-        <ul>
-            <li>
-                <a href="/index.html">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">NeoGrammer Mathan</div>
+        <ul class="non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/index.html">Home</a>
             </li>
-            <li>
-                <a href="/projects.html">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
             </li>
-            <li>
-                <a href="/blogs.html">Blogs</a>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
 
-    <header>
-        <img src="/images/programmer.jpg"/>
-        <h1>Hello guys iam a <span>web developer.</span></h1>
+    <header class="hero">
+        <img class="hero-image" src="/images/programmer.jpg"/>
+        <h1 class="header-image">Hello guys iam a <span class="hero-inverted">{web developer}</span></h1>
     </header>
 
-    <section>
-        <h2>About Me</h2>
+    <section class="section">
+        <h1>About Me</h2>
+        <div class="container container-center">
+        <small>December, 2020</small>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
     </section>
 
-    <section>
-        <h2>My Projects</h2>
+    <section class="ow">
+        <h1>My Projects</h1>
+        <div class="container container-center">
+        <small>Decemeber, 2020</small>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <a href="/projects.html">Explore Projects</a>
+        <a class="link primary-link" href="/projects.html">Explore Projects</a>
+        </div>
     </section>
 
-    <section>
-        <h2>My Blogs</h2>
+    <section class="section">
+        <h1>My Blogs</h1>
+        <div class="container container-center">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <a href="/blogs.html">Read Blogs</a>
+        <a class="link secondary-link" href="/blogs.html">Read Blogs</a>
+    </div>
     </section>
 
-    <footer>
-        <div>Connect with me:</div>
-        <ul>
-            <li>
-                <a href="/">LinkedIn</a>
+    <footer class="footer">
+        <div class="footer-heading">Connect with me:</div>
+        <ul class="social-links non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">LinkedIn</a>
             </li>
-            <li>
-                <a href="/">Instagram</a>
+            |
+            <li class="list-item-inline">
+                <a class="link" href="/">Instagram</a>
             </li>
-            <li>
-                <a href="/">GitHub</a>
+            |
+            <li class="list-item-inline">
+                <a class="link" href="/">GitHub</a>
             </li>
         </ul>
     </footer>
